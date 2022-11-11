@@ -1,0 +1,22 @@
+:root{
+    /* Primary */
+    --Pale-blue: rgb(224, 232, 255);
+    --Bright-blue: rgb(56, 41, 224);
+    /* Neutral */
+    --Very-pale-blue: rgb(245, 247, 255);
+    --Desaturated-blue: rgb(114, 128, 167);
+    --Dark-blue: rgb(31, 47, 86);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
