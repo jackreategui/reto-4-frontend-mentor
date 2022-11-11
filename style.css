@@ -20,3 +20,130 @@ body{
     display: grid;
     place-content: center;
 }
+
+.conteinner{
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.top-conteinner{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-conteinner img{
+    width: 100%;
+    height: 100%;
+}
+
+.button-conteinner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 15px;
+    align-items: center;
+}
+
+.button-conteinner h1{
+    color: var(--Dark-blue);
+    font-size: 24px;
+    font-weight: 900;
+    margin: -16px;
+}
+
+.button-conteinner .parrafo{
+    color: var(--Desaturated-blue);
+    font-size: 14px;
+    padding: 0 10px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.7em;
+}
+
+.product-info{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    width: 90%;
+    background-color: var(--Very-pale-blue);
+    height: 80px;
+    padding: 20px 15px;
+    border-radius: 15px;
+}
+
+.product-info .info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.product-info img{
+    width: 45px;
+    height: auto;
+}
+
+.product-info .info p:nth-child(1){
+    color: var(--Dark-blue);
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.product-info .info p:nth-child(2){
+    color: var(--Desaturated-blue);
+    font-size: 14px;
+}
+
+.product-info a{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--Bright-blue);
+}
+
+.product-info a:hover{
+    color: var(--Desaturated-blue);
+    text-decoration: none;
+}
+
+.button-proceed{
+    width: 90%;
+    height: 40px;
+    background-color: var(--Bright-blue);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.button-proceed:hover{
+    background-color: var(--Desaturated-blue);
+}
+
+.button-proceed h2{
+    color: var(--Pale-blue);
+    font-size: 14px;
+}
+
+.cancel-order{
+    color: var(--Bright-blue);
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.cancel-order:hover{
+    color: var(--Dark-blue);
+    font-weight: 700;
+}
